@@ -1,0 +1,122 @@
+.products{
+    display: inline-block;
+    width: 100%;
+}
+.heading{
+    padding: 60px 0;
+    text-align: center;
+    font-size: 100%; 
+}
+.heading h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Tw Cen MT;
+    color: #222222;
+    font-size: 100%; 
+}
+.heading p{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #919191;
+    font-size: 100%; 
+    
+}
+.card{
+    display: inline-block;
+    width: 271px;
+    text-align: center;
+    
+}
+.item{
+    width: 24%;
+    float: left;
+}
+.item-image{
+    position: relative;
+}
+.item-title{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+.item-title h5{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+}
+.item-title p{
+    font-size: 16px;
+    color: grey;
+}
+.item-title a{
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+}
+.item-button {
+    background-color: lightgreen
+  }
+  
+.item-button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+.product-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+ 
+        html {
+            box-sizing: border-box;
+            font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif; 
+            font-size: 100%; 
+            line-height: 1.5; 
+            -moz-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+        body{ 
+            overflow: auto; 
+            min-height: 100vh; 
+            width: 100%; 
+        }
+        main, header{
+            padding: 1rem 2rem;
+        }
+        p{
+            padding: 0.5rem 0;
+        }
+        main{
+            border-top: 5px solid #bada55;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            min-width: 600px;
+        }
+        #products{
+            display:grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1rem;
+            
+            flex:1 1 auto;
+        }
+        #cart{
+            flex: 1 1 20%;
+        }
+        .card{
+            border: 1px solid #999;
+            padding: 1rem;
+            box-sizing: content-box;
+            max-width: 200px;
+            position: relative;
+        }
+        .card img{
+            width: 100%;
+            filter: contrast(0.3);
+        }

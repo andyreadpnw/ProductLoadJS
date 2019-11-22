@@ -1,0 +1,82 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Tsunami",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 1"
+      },
+      {
+        "id": 2,
+        "name": "Tsunami2",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 2"
+      },
+      {
+        "id": 3,
+        "name": "Tsunami3",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 3"
+      },
+      {
+        "id": 4,
+        "name": "Tsunami4",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 4"
+      },
+      {
+        "id": 5,
+        "name": "Tsunami5",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 5"
+      },
+      {
+        "id": 6,
+        "name": "Tsunami6",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 6"
+      },
+      {
+        "id": 7,
+        "name": "Tsunami7",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 7"
+      },
+      {
+        "id": 8,
+        "name": "Tsunami8",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 8"
+      },
+      {
+        "id": 9,
+        "name": "Tsunami9",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 9"
+      },
+      {
+        "id": 10,
+        "name": "Tsunami10",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 10"
+      },
+      {
+        "id": 11,
+        "name": "Tsunami11",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 11"
+      },
+      {
+        "id": 12,
+        "name": "Tsunami12",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 12"
+      },
+      {
+        "id": 13,
+        "name": "Tsunami13",
+        "image": "ts.jpeg",
+        "product_details": "This is detail 13"
+      }
+    ]
+}
