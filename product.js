@@ -27,19 +27,39 @@ function getProduct(id){
 function displayProduct(json){
     console.log(json)
     let openedProduct = document.getElementById("openedProduct")
+    // openedProduct.style.width = 50%
     
     let name = json.name
     let imgTag = json.image
     let product_details = json.product_details
+    let dept = json.dept
+    let style = json.style_id
     let id = json.id
+    let features = json.features
 
     let img = document.createElement('img')
     let productTitle = document.createElement('h3')
+    let deptDisplay = document.createElement('div')
+    let styleDisplay = document.createElement('div')
     let details = document.createElement('div')
+    let featuresDiv = document.createElement('div')
 
     img.src = imgTag
-    productTitle.textContent = name
-    details.textContent = product_details
+    img.style.height = '300px';
+    img.style.width = '300px';
 
-    openedProduct.append(img, productTitle, product_details)
+    productTitle.textContent = name
+    details.textContent = "Product Details: " + product_details
+    deptDisplay.textContent = "Dept: " + dept
+    styleDisplay.textContent = "Style: " + style
+
+    let displayFeature = []
+    for(let i = 0; i < features.length; i++){
+        let featureId = features[i].type
+        displayFeature.push(" " + featureId)
+    }
+
+    featuresDiv.textContent = "Features: " + displayFeature
+
+    openedProduct.append(img, productTitle, deptDisplay, styleDisplay, product_details, featuresDiv)
 }

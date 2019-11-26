@@ -120,3 +120,30 @@
             width: 100%;
             filter: contrast(0.3);
         }
+
+        .first-box {
+            width:300px; 
+            float:left; 
+            height: 150px;
+            margin: 50px
+          }
+          
+          .first-box p {
+            color: #ffffff;
+            padding-left: 80px;
+            padding-top: 50px;
+          }
+          
+          .second-box {
+            width:580px; 
+            height: 450px; 
+            border:1px solid black;
+            float:right; 
+            margin: 50px
+          }
+          
+          .second-box p {
+            color: #ffffff;
+            padding-left: 110px;
+            padding-top: 50px;
+          }

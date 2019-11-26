@@ -18,6 +18,7 @@ function fetchData(){
       let name = json[i].name
       let imgTag = json[i].image
       let product_details = json[i].product_details
+      let deptStyle = "dept: " + json[i].dept + " " + "style: " + json[i].style_id
       let id = json[i].id
 
         let products = document.getElementById("products")
@@ -25,7 +26,7 @@ function fetchData(){
         newProductCard.className = "card"
        
         let newProductTitle = document.createElement("h5")
-        let newProductDetail = document.createElement("p")
+        let newProductDeptStyle = document.createElement("p")
         let newProductImg = document.createElement('img')
 
         let newProductButton = document.createElement('div')
@@ -34,12 +35,12 @@ function fetchData(){
         newProductButton.innerText = "Open Product"
 
         newProductTitle.textContent = name
-        newProductDetail.textContent = product_details
+        newProductDeptStyle.textContent = deptStyle
         newProductImg.src = imgTag
 
         newProductCard.appendChild(newProductImg) 
         newProductCard.appendChild(newProductTitle)
-        newProductCard.appendChild(newProductDetail)
+        newProductCard.appendChild(newProductDeptStyle)
         newProductCard.appendChild(newProductButton) 
 
         products.appendChild(newProductCard)
